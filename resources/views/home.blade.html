@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CFU.com</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
+
+<style type="text/css">
+
+body{font-family:"Lato";}
+.std_width{width:960px;text-align: left;margin:auto;}
+/*
+@media (max-width: 960px) {
+    .std_width{width:100%;}
+}*/
+
+.header{min-height:80px;}
+.top_navigation{}
+.top_navigation a{text-decoration: none;color:#888;}
+.top_navigation a:hover{text-decoration: underline;color:#f90;}
+.top_navigation ul li{list-style: none;float:left;margin:12px 20px;}
+.top_navigation_right{float: right;}
+.logo_div{
+    text-align: center;
+}
+.logo_div img.logo{width:200px;}
+
+
+.search_form_container{text-align: center;}
+.get_help{font-size: 22px;margin:20px 0;}
+.quick_search{font-size: 18px;margin:8px 0;}
+.quick_search_optionlist div{
+    display: inline-block;
+    margin: 0 14px;
+    text-align: left;
+    width:150px;
+}
+
+.quick_search_optionlist ul li{list-style:disc;}
+
+.search_button_span{display:inline-block;margin-top:0px;}
+
+.search_form{min-height:60px;}
+#search_form span{vertical-align: top;}
+#search_form input[type=text]{padding:0 8px;height:32px;width:350px;}
+#search_form input[type=submit].button, .linkbutton.button{
+    font-size:20px;color:#fff;
+    background-image: linear-gradient(to bottom,#616161,#2b2b2b);
+    padding:6px 16px;border-radius: 8px;
+    border:none;-webkit-appearance: none;
+}
+#search_form input[type=submit].button-blue, .linkbutton.button-blue{color:#fff;
+    background-image: linear-gradient(to bottom,#39749e,#16374f);
+}
+
+div.link_buttons{text-align: center;}
+div.link_buttons .linkbutton{margin:20px;}
+
+div.footer{margin-top:30px;}
+div.link_buttons{margin-top:6px;}
+
+</style>
+</head>
+    <body>
+
+<div class="header">
+    <div class="std_width">
+        <div class="top_navigation">
+            <div class="top_navigation_left">
+                <ul>
+                    <li><div>Language</div></li>
+                </ul>
+            </div>
+            <div class="top_navigation_right">
+                <ul>
+                    <li><div><a href="./login">Contact Us</a></div></li>
+                    <li><div><a href="./login">About Us</a></div></li>
+                    <li><div><a href="./login">Login</a></div></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="body">
+    <div class="std_width">
+        <div class="logo_div">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_Google_2013_Official.svg/1280px-Logo_Google_2013_Official.svg.png" class="logo" />
+
+        </div>
+
+        <div class="search_form_container">
+            <div class="get_help">
+                Get Help
+            </div>
+            <div class="search_form">
+                <form method="GET" id="search_form">
+                    <span><input type="text" name="keyword" class="form_input-keyword" /></span>
+                    <span class="search_button_span"><input type="submit" class="button button-blue" value="Search Neighbor" /></span>
+                </form>
+            </div>
+            <div class="quick_search">
+                Quick Search Options (Category):
+            </div>
+
+            <div class="quick_search_optionlist">
+                <div><ul>
+                    <li>Education</li>
+                    <li>Household</li>
+                </ul></div>
+                <div><ul>
+                    <li>Renovation</li>
+                    <li>Electrical</li>
+                </ul></div>
+                <div><ul>
+                    <li>House Keeping</li>
+                    <li>Share car</li>
+                </ul></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="std_width">
+        <div class="link_buttons">
+
+            <span class="linkbutton button button-blue" >Wanna Contribute?</span>
+            <span class="linkbutton button button-blue" >Edit Profile</span>
+            <span class="linkbutton button button-blue" >Scheduler</span>
+            <span class="linkbutton button button-blue" >Update Skill & Ref</span>
+        </div>
+    </div>
+</div>
+
+
+
+    </body>
+</html>

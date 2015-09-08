@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Findcfu
+        psr4_prefix: Findcfu
+        src_path: app
